@@ -1,0 +1,29 @@
+{
+  "expense": [
+    {
+      "id": 1,
+      "description": "Parking Fee",
+      "cost": 20
+    },
+    {
+      "id": 2,
+      "description": "Partying",
+      "cost": 100
+    },
+    {
+      "id": 3,
+      "description": "Parents",
+      "cost": 100
+    },
+    {
+      "id": 4,
+      "description": "Parking Fee",
+      "cost": 20
+    },
+    {
+      "id": 5,
+      "description": "Rent",
+      "cost": 200
+    }    
+  ]
+}
