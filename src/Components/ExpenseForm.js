@@ -24,7 +24,17 @@ function submitHandler (e) {
     console.log(data)     
   }
 
-
+  function post (data) {
+    fetch(`https://myservercalculator.herokuapp.com/expense`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+    addExpense(data)
+  }
+  
   return (
     <div>
              <form onSubmit={submitHandler} className ="container">
