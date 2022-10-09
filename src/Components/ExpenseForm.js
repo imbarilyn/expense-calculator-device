@@ -11,6 +11,18 @@ function desHandler (e){
 function costHandler(e){
   setCost(e.target.value)
 }
+function submitHandler (e) {
+    e.preventDefault();
+    if(description !== "" && cost > 0){
+      console.log("bad input");
+    }
+      const data = {
+      description: description,
+      cost: cost
+    }
+    post(data)   
+    console.log(data)     
+  }
 
 
   return (
