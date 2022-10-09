@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Expense from './Expense';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Expense({expense}) {
+function ExpenseList({expense}) {
   const expenseItem = expense.map(expe => {
-    //console.log(expe)
+    console.log(expe)
     return(
        <Expense key = {expe.id} expe ={expe} />
        
@@ -29,4 +31,4 @@ function Expense({expense}) {
   )
 }
 
-export default Expense
+export default ExpenseList

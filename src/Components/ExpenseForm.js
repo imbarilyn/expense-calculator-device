@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ExpenseForm({addExpense}) {
 const [description, setDescription] = useState("");
@@ -34,7 +35,7 @@ function submitHandler (e) {
     })
     addExpense(data)
   }
-  
+
   return (
     <div>
              <form onSubmit={submitHandler} className ="container">

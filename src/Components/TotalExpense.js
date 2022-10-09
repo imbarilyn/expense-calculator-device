@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function TotalExpense({setCloseModal, expense}) {
     const totals = expense.reduce((acc, init) =>{

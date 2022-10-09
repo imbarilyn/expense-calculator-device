@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Expense({expe}) {
     const {description, cost} = expe
