@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from './Budget';
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className='container'>
     <h1 className='mt-4'>Expense Calculator</h1>
