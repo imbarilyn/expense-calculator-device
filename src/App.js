@@ -1,8 +1,8 @@
 import './App.css';
 import React  from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './componets/Home';
-import Budget from './componets/Budget';
+import Home from './Componets/Home';
+import Budget from './Componets/Budget';
 
 function App() {
   return (
