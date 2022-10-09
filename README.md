@@ -35,7 +35,7 @@ HTTPS: `https://github.com/imbarilyn/expense-calculator-device.git`
 ## Live site
 `https://expense-calculator-device.vercel.app/`
 
-### Project available Here: (``)
+### Project available Here: (``https://expense-calculator-device.vercel.app/``)
 
 
 ## License
