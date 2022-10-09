@@ -38,10 +38,6 @@ HTTPS: `https://github.com/imbarilyn/expense-calculator-device.git`
 ### Project available Here: (``https://expense-calculator-device.vercel.app/``)
 
 
-## License
-[MIT LICENSE](License)
-
-
 ## Author 
 [Linah Muhonja Imbari](https://github.com/imbarily)
 
