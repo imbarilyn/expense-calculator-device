@@ -1,6 +1,18 @@
 import React, { useState } from 'react'
 
-function ExpenseForm() {
+function ExpenseForm({addExpense}) {
+const [description, setDescription] = useState("");
+const [cost, setCost] = useState();
+
+
+function desHandler (e){
+  setDescription(e.target.value)
+}
+function costHandler(e){
+  setCost(e.target.value)
+}
+
+
   return (
     <div>
              <form onSubmit={submitHandler} className ="container">
