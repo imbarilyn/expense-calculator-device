@@ -1,6 +1,10 @@
 import React from 'react'
 
-function TotalExpense() {
+function TotalExpense({setCloseModal, expense}) {
+    const totals = expense.reduce((acc, init) =>{
+    console.log(acc);
+    return acc += parseInt(init.cost)
+  }, 0)
   return (
     <div className='modal'>
     {/* {alert("Hello")} */}
