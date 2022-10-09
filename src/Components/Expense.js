@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Expense() {
+function Expense({expe}) {
+    const {description, cost} = expe
   return (
     <tr>
     {/* <th scope="row">{key}</th> */}
