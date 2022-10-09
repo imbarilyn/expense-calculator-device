@@ -22,9 +22,13 @@ function Budget() {
   
 
   return (
-    <div>
-
-    </div>
+   <div>
+        <ExpenseForm addExpense = { addExpense } expense = {expense}/>
+        <button className = 'openModalBtn mt-3 btn btn-primary' onClick={() => setOpenModal(true)}>See Total</button>
+        {openModal && <TotalExpense setCloseModal = {setOpenModal}  expense = {expense}/>}
+        <ExpenseList addedExpense = {addExpense}  expense = {expense}/> 
+  </div>
+  
   )
 }
 
